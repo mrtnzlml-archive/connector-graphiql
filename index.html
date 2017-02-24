@@ -98,7 +98,7 @@
 		// use fetch, and could instead implement graphQLFetcher however you like,
 		// as long as it returns a Promise or Observable.
 		function graphQLFetcher(graphQLParams) {
-			const GRAPHQL_URL = '//connector.adeira.localhost/graphql'; //FIXME (configurable)
+			const GRAPHQL_URL = '//connector.adeira.loc/graphql'; //FIXME (configurable)
 			return fetch(GRAPHQL_URL, {
 				method: 'post',
 				body: JSON.stringify({

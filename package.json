@@ -1,5 +1,5 @@
 {
   "dependencies": {
-    "graphiql": "^0.9.1"
+    "graphiql": "^0.9.3"
   }
 }
